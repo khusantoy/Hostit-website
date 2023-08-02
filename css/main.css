@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Navigation  */
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation__item a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-navigation__item a:hover {
+    color: dodgerblue;
+}
+
+.main-navigation__item.active a {
+    color: dodgerblue;
+}
+
+/* /Navigation  */
